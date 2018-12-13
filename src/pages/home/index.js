@@ -1,7 +1,7 @@
 import { Button, TabBar } from 'antd-mobile';
 import { Component } from 'react';
 import { connect } from 'dva';
-import Nav from '../../layouts/Nav';
+import Nav from '../../components/Nav';
 import PropTypes from 'prop-types';
 
 class Home extends Component {
