@@ -2,12 +2,12 @@ import { Button, TabBar } from 'antd-mobile';
 import { Component } from 'react';
 import { connect } from 'dva';
 
-function User () {
+function Home () {
   return (
     <div>
-     user
+     Home
     </div>
   );
 }
 
-export default connect()(User);
+export default connect()(Home);

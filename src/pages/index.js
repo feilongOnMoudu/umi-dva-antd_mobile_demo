@@ -1,14 +1,13 @@
 import { Button, TabBar } from 'antd-mobile';
-import { Component } from 'react';
+import { connect } from 'dva';
+import Home from './home/index';
+import Redirect from 'umi/redirect';
 
-export default class App extends Component {
-  render() {
-    return (
-      <div>
-        sss
-      </div>
-    );
-  }
+export default () => {
+  return (
+    //重定向
+    <Redirect to="/Home" />
+  );
 }
 
 
