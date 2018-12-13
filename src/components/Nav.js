@@ -6,10 +6,7 @@ function Nav (props) {
     return (
         <NavBar
         mode="light"
-        icon={<Icon type="left" />}
-
-
-        
+        icon={!props.showLeftButton ? '':  <Icon type="left" />  }
         onLeftClick={!props.showLeftButton ? null : props.onLeftClick}
       >{props.navTitile}</NavBar>
     );
