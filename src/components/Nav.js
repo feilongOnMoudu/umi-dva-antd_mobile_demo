@@ -7,6 +7,9 @@ function Nav (props) {
         <NavBar
         mode="light"
         icon={<Icon type="left" />}
+
+
+        
         onLeftClick={!props.showLeftButton ? null : props.onLeftClick}
       >{props.navTitile}</NavBar>
     );
