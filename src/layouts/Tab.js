@@ -58,7 +58,7 @@ const tabIcon = (icon) => {
 Tab.defaultProps = {
     isMenubar: false,
     children: null,
-    pathname: '/',
+    pathname: '/home',
 };
   
 Tab.propTypes = {

@@ -6,7 +6,7 @@ import Redirect from 'umi/redirect';
 export default () => {
   return (
     //重定向
-    <Redirect to="/Home" />
+    <Redirect to="/home" />
   );
 }
 
