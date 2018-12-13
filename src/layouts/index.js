@@ -1,12 +1,12 @@
 import styles from './index.css';
-import {NavBar,Icon} from 'antd-mobile';
+import Nav from './Nav';
+import Tab from './Tab'
 
 function BasicLayout(props) {
   return (
     <div className={styles.normal}>
-      <NavBar
-        mode="light"
-      >NavBar</NavBar>
+      <Nav/>
+      <Tab/>
       {props.children}
     </div>
   );
