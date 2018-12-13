@@ -1,5 +1,4 @@
 import styles from './index.css';
-import Nav from './Nav';
 import Tab from './Tab'
 import withRouter from 'umi/withRouter';
 
